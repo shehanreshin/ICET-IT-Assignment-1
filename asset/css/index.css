@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Leckerli+One&family=Lexend:wght@600&family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5vh 5vw;
+}
+
+.pg-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.pg-intro {
+    padding: 3vh 6vh;
+}
+
+.pg-intro .intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.pg-intro .intro span {
+    color: red;
+}
+
+.pg-intro .img-grid {
+    padding: 5vh 6vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pg-intro .img-grid .img-container {
+    width: calc(33.33% - .2rem);
+    box-sizing: border-box;
+}
+
+.pg-intro .img-grid .img-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
