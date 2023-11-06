@@ -106,7 +106,8 @@ footer {
     padding-top: 4vh;
 }
 
-.spcf-section .top-section h2,p {
+.spcf-section .top-section h2,
+p {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-align: center;
@@ -191,6 +192,7 @@ footer {
     .dtl-section-holder {
         margin-right: 6vw;
     }
+
     .dtl-section p {
         font-size: 1.03rem;
     }
@@ -200,6 +202,7 @@ footer {
     .dtl-section-holder {
         margin-right: 7vw;
     }
+
     .dtl-section p {
         font-size: 1.08rem;
     }
