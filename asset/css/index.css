@@ -24,7 +24,7 @@ body {
 }
 
 .pg-intro .intro span {
-    color: red;
+    color: #E70000;
 }
 
 .pg-intro .img-grid {
@@ -46,5 +46,42 @@ body {
     object-fit: cover;
 }
 
+.pg-details {
+    padding: 0vh 6vh;
+}
+
+.pg-details .detail-section {
+    display: flex;
+}
+
+.pg-details .detail-section .bullet-point {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #D60000;
+    flex-shrink: 0;
+}
+
+.pg-details .detail-section .bird-info {
+    margin-left: 1vw;
+}
+
+.pg-details .detail-section .bird-info h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.pg-details .detail-section .bird-info p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 4vh;
+}
+
+.pg-details .detail-section:nth-child(2) {
+    margin-top: 6vh;
+}
+
+.pg-details .detail-section:nth-child(2) .bullet-point{
+    background-color: #0064FA;
+}
 
 
