@@ -180,3 +180,33 @@ footer {
     font-weight: 400;
     font-size: 1.2rem;
 }
+
+@media all and (min-width: 944px) and (max-width: 982px) {
+    .dtl-section-holder {
+        margin-right: 6vw;
+    }
+}
+
+@media all and (min-width: 983px) and (max-width: 1022px) {
+    .dtl-section-holder {
+        margin-right: 6vw;
+    }
+    .dtl-section p {
+        font-size: 1.03rem;
+    }
+}
+
+@media all and (min-width: 1022px) and (max-width: 1106px) {
+    .dtl-section-holder {
+        margin-right: 7vw;
+    }
+    .dtl-section p {
+        font-size: 1.08rem;
+    }
+}
+
+@media all and (min-width: 1107px) {
+    .dtl-section p {
+        font-size: 1.3rem;
+    }
+}
