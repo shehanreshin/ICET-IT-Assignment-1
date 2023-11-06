@@ -9,6 +9,14 @@ body {
     padding: 5vh 5vw;
 }
 
+footer {
+    font-family: 'Leckerli One', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 5vh;
+    text-align: center;
+}
+
 .pg-title {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -98,8 +106,7 @@ body {
     padding-top: 4vh;
 }
 
-.spcf-section .top-section h2,
-p {
+.spcf-section .top-section h2,p {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     text-align: center;
@@ -155,4 +162,21 @@ p {
 
 .spcf-section .details .labels:nth-child(3) li {
     color: #0121C8;
+}
+
+.spcf-section .banner~.banner {
+    /* nth-child didn't work here for some reason (possibly bug) so I used an alternative solution */
+    background-color: #9B0054 !important;
+}
+
+.spcf-section .url-wiki {
+    text-align: center;
+    margin: 2vh;
+}
+
+.spcf-section .url-wiki a {
+    color: #0500FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
